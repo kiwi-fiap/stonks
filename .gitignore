@@ -10,8 +10,6 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-
-
 # Package Files #
 *.jar
 *.war
@@ -21,7 +19,8 @@
 *.tar.gz
 *.rar
 
-\!ojdbc6!.jar
+!/Stonks/custom-lib/ojdbc6.jar
+!ojdbc6.jar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
